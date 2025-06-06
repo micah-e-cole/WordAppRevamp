@@ -1,0 +1,13 @@
+node_modules
+npm-debug.log
+.DS_Store
+.vscode
+.env
+# Ignore build artifacts
+dist
+# Ignore test coverage reports
+coverage
+# Ignore logs
+logs
+# Ignore temporary files
+tmp

@@ -1,0 +1,27 @@
+{
+  "name": "wordapp",
+  "version": "2.0.0",
+  "description": "Word guessing game revamp from 2021, now with web-app features.",
+  "main": "server.js",
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.21.2",
+    "mongoose": "^6.10.0",
+    "sqlite3": "^5.1.7"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "author": {
+    "name": "Micah Braun",
+    "email": "mcbraunie@gmail.com"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon --legacy-watch server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

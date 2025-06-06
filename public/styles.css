@@ -1,0 +1,113 @@
+/*
+ * Name: Micah B
+ * File: ./public/styles.css
+ */
+
+
+ /*  Game Difficulty Dropdown Menu*/
+#select-difficulty{
+  text-align: left;
+}
+
+#dropdown{
+  padding-left: 6%;
+  inline-size: 175px;
+  overflow-wrap: break-word;
+  border-right: 5px;
+  border-radius: 25px;
+}
+
+#difficulty_setting{
+  text-align: center;
+  background-color: rgb(236, 236, 236);
+  font-weight: 500;
+}
+
+#guess-counter{
+  font-size: larger;
+  text-align: left;
+  padding-top: 1%;
+  padding-left: 6%;
+}
+
+#keyboard {
+  background-color: rgba(29, 88, 128, 0.404);
+  color: rgb(255, 255, 255);
+  padding: 3% 2.5% 1.5% 1.5%;
+  margin: 2% 2% 2% 2%;
+  flex-wrap: wrap;
+  font-size: 3rem;
+  font-weight:800;
+  border: 5px;
+  border-radius: 25px;
+}
+
+#prompt-text{
+  text-align: center;
+  margin: auto;
+}
+
+#wordSpotlight{
+  text-align: center;
+  margin: auto;
+  padding: 3%;
+  font-size: 2.5rem;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(231, 223, 223);
+  align-content: center;
+  margin: 2px;
+  padding: auto;
+}
+  
+h1 {
+  text-align: center;
+  border: rgb(187, 212, 235);
+  margin: auto;
+}
+
+h3 {
+  text-align: center;
+  font-size: larger;
+  margin: auto;
+}
+
+h4 {
+  text-align: center;
+  margin: auto;
+}
+
+div {
+  text-align: center;
+  background-color: rgb(231, 223, 223);
+}
+
+button {
+  background-color: rgba(0, 95, 158, 0.801);
+  color: rgb(255, 255, 255);
+  padding: 2%;
+  margin-bottom: 2.75%;
+  margin-left: 2%;
+  flex-wrap: wrap;
+  font-size: large;
+  border: 5px;
+  border-radius: 25px;
+}
+
+button:disabled {
+  background-color: rgba(2, 128, 212, 0.397)
+}
+
+span{
+  background-color:rgb(231, 223, 223);
+  margin-bottom: 10px;
+}
+
+label {
+  text-align: center;
+  font-size: 18px;
+  border: 3px;
+  border-radius: 5px;
+}

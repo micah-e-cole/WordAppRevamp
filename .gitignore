@@ -1,0 +1,43 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Ignore old files
+/public/Archive/
+
+# dotenv environment variables
+.env
+.env.*
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build / runtime artifacts
+dist/
+build/
+*.tgz
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+terraform.tfvars
+*.backup
+
+# GitHub Actions temp files
+.github/workflows/*.bak
+.github/workflows/*.log
+
+# Coverage reports
+coverage/
+
+# Optional: ignore lock file if deploying on platforms that auto-install
+# package-lock.json

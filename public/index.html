@@ -1,0 +1,45 @@
+<!-- Name: MB 
+     Course: CSD 122
+     Date: 12/2/2021
+     Assignment: Course Final Project
+     File: ./public/index.html-->
+     
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Word Guessing Game</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="game-title">
+        <h1>Random Word Guessing Game</h1>
+    </div>
+    <div id="select-difficulty">
+        <span id="dropdown">
+            <label for="difficulty">Choose difficulty level:</label>
+                <select name="difficulty" id="difficulty_setting" onchange="setDifficulty(this.value)">
+                    <option value="Easy" selected>Easy</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Hard">Hard</option>
+                </select>
+        </span>
+    </div>
+    <div class="container">
+        <h3 id="prompt-text">Guess the word:</h3>
+        <div id="guess-counter" ">Wrong Guesses: <span id='mistakes'>0</span> of <span id='maxWrong'></span></div>
+        <div id="word-to-be-guessed-block">
+            
+            <p id="wordSpotlight">The word to be guessed goes here</p>
+        </div> 
+        <div id="keyboard"></div>
+            <button class="btn-reset" onClick="restart()">Restart</button>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
