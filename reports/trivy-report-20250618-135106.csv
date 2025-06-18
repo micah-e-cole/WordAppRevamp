@@ -1,6 +1,0 @@
-"Package","Vulnerability ID","Severity","Installed Version","Fixed Version","Title"
-"libc-bin","CVE-2025-4802","HIGH","2.36-9+deb12u10","","glibc: static setuid binary dlopen may incorrectly search LD_LIBRARY_PATH"
-"libc6","CVE-2025-4802","HIGH","2.36-9+deb12u10","","glibc: static setuid binary dlopen may incorrectly search LD_LIBRARY_PATH"
-"perl-base","CVE-2023-31484","HIGH","5.36.0-7+deb12u2","","perl: CPAN.pm does not verify TLS certificates when downloading distributions over HTTPS"
-"zlib1g","CVE-2023-45853","CRITICAL","1:1.2.13.dfsg-1","","zlib: integer overflow and resultant heap-based buffer overflow in zipOpenNewFileInZip4_6"
-"cross-spawn","CVE-2024-21538","HIGH","7.0.3","7.0.5, 6.0.6","cross-spawn: regular expression denial of service"
