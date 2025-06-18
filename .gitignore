@@ -41,3 +41,5 @@ coverage/
 
 # Optional: ignore lock file if deploying on platforms that auto-install
 # package-lock.json
+reports/*.tar
+reports/*.json
